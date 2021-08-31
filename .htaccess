@@ -1,4 +1,3 @@
-RewriteBase /
 RewriteEngine on
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\. [NC]
