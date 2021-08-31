@@ -1,3 +1,4 @@
+RewriteBase /
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www.x-lamda.netlify.app [NC]
 RewriteRule ^(.*)$ http://x-lamda.netlify.app/$1 [L,R=301,NC]
